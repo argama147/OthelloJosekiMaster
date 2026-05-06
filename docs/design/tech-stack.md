@@ -57,3 +57,5 @@
 
 - Edax API のエンドポイント仕様・認証方式の確認
 - オフライン時（API 未到達）の UI フォールバック方針
+- その他 UseCase 設計（`RecordAnswerUseCase`, `GetNextQuestionUseCase` 等）— 実装フェーズで設計ドキュメント別途作成
+- 評価値色分けの実装方針（`MaterialTheme.colorScheme` 拡張 vs カスタムカラー定義）— [game-flow.md](../spec/game-flow.md) で色の仕様が確定済みのため、実装時に色の取得方法を決定する
