@@ -45,7 +45,6 @@
 
 ### 開発環境
 
-- KMP（Kotlin MultiPlatform）で実装する。
 - 対象プラットホームはAndroidとする。
 
 ### 画面
