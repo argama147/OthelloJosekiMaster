@@ -32,3 +32,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Claude Code (個人ローカル許可・揮発状態)
+.claude/settings.local.json
