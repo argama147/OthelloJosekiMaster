@@ -13,6 +13,8 @@
 - **最善手**: 当該局面で最も評価値が高い手
 - **正解手**: 最善手（出題の答え）
 
+> 詳細定義は [knowledge/joseki-glossary.md](../../knowledge/joseki-glossary.md) を参照。
+
 ## ユースケース / シナリオ
 
 ### UC-01: 定石を選んで練習を開始する

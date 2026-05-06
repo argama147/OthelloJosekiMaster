@@ -17,17 +17,14 @@
 
 ## UI
 
-Jetpack Compose を採用する。
-
 - 宣言的 UI により状態駆動の盤面描画が自然に書ける
 - Material 3 でのテーマ対応が容易
 - アニメーション API（`animateFloatAsState` 等）で石を裏返す演出を実装する
 
 ## 外部 API: Edax
 
-着手の評価値算出に **Edax API** を使用する。
+着手の評価値算出に **Edax API** を使用する（エンジン詳細は [knowledge/joseki-glossary.md](../../knowledge/joseki-glossary.md#edax) 参照）。
 
-- Edax はオセロ専用の強力なエンジンで、局面の評価値を返す
 - アプリは Edax API に局面を送り、各着手の評価値を取得する
 - 取得した評価値を正誤照会画面に表示する
 
